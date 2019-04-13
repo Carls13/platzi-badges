@@ -1,0 +1,32 @@
+.Home__hero {
+  width: 100%;
+  padding: 2rem 0;
+  background: url('../../images/stars.svg'), #1B1B25;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  height:45em;
+}
+
+.badgeHome {
+	color: white;
+}
+
+.leftHome {
+	margin-left: 1em;
+	margin-top: 10em;
+}
+
+.rightHome{
+	margin-top: 5em;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+.notFound {
+	margin-top: 7.5em;
+	text-align: center;
+}

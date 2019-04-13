@@ -1,0 +1,25 @@
+.SmallBadge {
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.blue {
+	color: #1da1f2;
+}
+
+.twitterContainer{
+	display: inline-flex;
+}
+.twitterLogo{
+	margin-top: 0.5em;
+	width: 6%;
+	height: 6%;
+}
+
+.rightContainer{
+	margin-left: 1em;
+}
