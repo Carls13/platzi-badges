@@ -8,14 +8,14 @@ class Badge extends React.Component{
 		const { firstName, lastName, jobTitle, twitter, avatarUrl } = this.props.badge
 
 		return <div className="SmallBadge">
-			<div class="row">
-				<div class="col-2">
+			<div className="row">
+				<div className="col-2">
 				  	<img src={avatarUrl} alt="Avatar" className="m-2 rounded-circle"/>
 				</div>
-				<div class="col-10">
+				<div className="col-10">
 					<div className="rightContainer">
 					  	<h5><b>{firstName} {lastName}</b></h5>
-					  	<div class="twitterContainer">
+					  	<div className="twitterContainer">
 					  		<img src={twitterLogo} alt="Twitter" className="twitterLogo"/>
 					  		<h5 className="blue">@{twitter}</h5>
 					  	</div>
